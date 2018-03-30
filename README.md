@@ -17,7 +17,7 @@ from pywe_xml import dict_to_xml, xml_to_dict
 # Method
 
 ```python
-def dict_to_xml(d, ignore=True):
+def dict_to_xml(d, ignore=True, isdigit=True)
 
 def xml_to_dict(x):
 ```
