@@ -20,7 +20,7 @@ setup(
 
     packages=['pywe_xml'],
     py_modules=[],
-    install_requires=['pywe_utils', 'six', 'xmltodict'],
+    install_requires=['defusedexpat', 'pywe_utils', 'six', 'xmltodict'],
 
     classifiers=[
         'License :: OSI Approved :: BSD License',
